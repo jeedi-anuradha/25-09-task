@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./24data.html">
+      <!-- Email validations -->
+      <input
+        type="email"
+        placeholder="enter mail"
+        required
+        pattern="[a-z\d.]+@[a-z]+\.[a-z]{2,}"
+      /><br />
+      <br />
+      <!-- password validations -->
+      <input
+        type="text"
+        placeholder="enter password"
+        required
+        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$%&]).{8,16}"
+      /> <br> <br>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
